@@ -29,10 +29,10 @@ Please cite the following paper:
 
 ### With Gradle (preferred)
 You don't need to have Gradle installed. This method uses Gradle Wrapper,
-which is included in this repository. Eeverything needed for the build will 
+which is included in this repository. Eeverything needed for the build will
 be downloaded.
 
-- To get the jar with all dependencies included, from the directory with 
+- To get the jar with all dependencies included, from the directory with
 the `gradle.build` file:  
   `./gradlew clean shadowJar`
 
@@ -42,7 +42,7 @@ the `gradle.build` file:
 - To create a zip file with the jar and startup scripts/bat files:  
   `./gradlew distZip`
 
-Inspect the output in `MSFragger-GUI/build/lbis` and 
+Inspect the output in `MSFragger-GUI/build/lbis` and
   `MSFragger-GUI/build/distributions` folders.
 
 
